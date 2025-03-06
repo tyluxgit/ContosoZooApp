@@ -49,8 +49,14 @@ void PrintGroup(string[,] group)
     }
 }
 
-RandomizeAnimals();
-string[,] group = AssignGroup();
-Console.WriteLine("School A");
+void PlanSchoolVisit(string schoolName, int groups = 6)
+{
+    RandomizeAnimals();
+    string[,] group = AssignGroup(groups);
+    Console.WriteLine(schoolName);
+    PrintGroup(group);
+}
 
-// PrintGroup(group);
+PlanSchoolVisit("School A");
+PlanSchoolVisit("School B", 3);
+PlanSchoolVisit("School C", 2);
