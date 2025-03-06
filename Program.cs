@@ -4,3 +4,8 @@
     "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws",
     "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
 };
+// RandomizeAnimals();
+// string[,] group = AssignGroup();
+Console.WriteLine("School A");
+
+// PrintGroup(group);
